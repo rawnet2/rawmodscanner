@@ -30,19 +30,11 @@ $Banner = @"
               ╚════██║██║     ██╔══██║██║╚██╗██║██║╚██╗██║██╔══╝  ██╔══██╗
               ███████║╚██████╗██║  ██║██║ ╚████║██║ ╚████║███████╗██║  ██║
               ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
-
-                         \    /\
-                          )  ( ')
-                         (  /  )
-                          \(__)|
-
 "@
 
 Write-Host $Banner -ForegroundColor $Primary
 Write-Host ""
-Write-Host "                Made with " -ForegroundColor $Muted -NoNewline
-Write-Host "♥ " -ForegroundColor $Accent -NoNewline
-Write-Host "by " -ForegroundColor $Muted -NoNewline
+Write-Host "                Made by " -ForegroundColor $Muted -NoNewline
 Write-Host "rawnet" -ForegroundColor $Accent
 Write-Host ""
 Write-Host ("━" * 76) -ForegroundColor $Line
@@ -415,3 +407,4 @@ Write-Host ("━" * 76) -ForegroundColor $Line
 Write-Host ""
 Write-Host "Press any key to exit..." -ForegroundColor $Muted
 $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+
