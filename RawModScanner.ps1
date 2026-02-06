@@ -401,10 +401,11 @@ Write-Host ""
 Write-Host "  👤 Created by: " -ForegroundColor $Muted -NoNewline
 Write-Host "rawnet" -ForegroundColor $Accent
 Write-Host "  📱 Contact: " -ForegroundColor $Muted -NoNewline
-Write-Host "Discord: rawnet" -ForegroundColor $Accent
+Write-Host "Discord: r4wnet" -ForegroundColor $Accent
 Write-Host ""
 Write-Host ("━" * 76) -ForegroundColor $Line
 Write-Host ""
 Write-Host "Press any key to exit..." -ForegroundColor $Muted
 $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+
 
